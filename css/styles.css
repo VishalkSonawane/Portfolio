@@ -1,0 +1,160 @@
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif; /* Sets font family */
+  margin: 0; /* Removes default margin */
+  padding: 0; /* Removes default padding */
+  background-image: url('../all_images/background.jpg'); /* Sets background image for the body */
+  background-size: cover; /* Cover the entire screen with the background image */
+  background-position: center; /* Center the background image */
+}
+
+/* Header Styles */
+header {
+  background-image: url('../all_images/tech.jpg '); /* Sets background image for the header */
+  background-size: cover; /* Cover the header area with the background image */
+  background-position: center; /* Center the background image */
+  color: #fff; /* Text color */
+  padding: 20px; /* Adds padding to the header */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2); /* Adding a subtle shadow effect */
+  display: flex; /* Enable flexbox layout */
+  justify-content: space-between; /* Space between portfolio title and nav */
+  align-items: center; /* Center vertically */
+}
+
+/* Portfolio Title Styles */
+#portfolio-title {
+  text-transform: uppercase; /* Uppercase text */
+  font-size: 32px; /* Font size */
+  margin-left: 20px; /* Add some distance from the left */
+}
+
+/* Navigation Styles */
+nav {
+  margin-right: 20px; /* Add some distance from the right */
+}
+
+nav ul {
+  list-style-type: none; /* Remove default list styles */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+nav ul li {
+  display: inline; /* Display list items inline */
+  margin-left: 20px; /* Add some spacing between list items */
+}
+
+nav ul li:first-child {
+  margin-left: 0; /* Remove left margin for the first list item */
+}
+
+nav ul li a {
+  color: #fff; /* Link text color */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 15px; /* Padding for links */
+  border-radius: 5px; /* Rounded corners */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+nav ul li a:hover {
+  background-color: rgba(230, 91, 91, 0.722); /* Background color on hover */
+}
+
+/* Main Content Styles */
+main {
+  padding: 20px; /* Padding for the main content area */
+}
+
+#home {
+  padding: 20px; /* Padding for the home section */
+}
+
+/* Window Containers and Cards Styles */
+.window-container {
+  display: flex; /* Enable flexbox layout */
+  flex-direction: row; /* Arrange items horizontally */
+  justify-content: flex-start; /* Align items to the start (left side) */
+}
+
+.window {
+  width: 400px; /* Width of the window */
+  height: 450px; /* Height of the window */
+  background-color: #fff; /* Background color of the window */
+  border-radius: 10px; /* Rounded corners */
+  margin: 10px; /* Margin around the window */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle effect */
+  overflow: hidden; /* Hide overflow content */
+}
+
+.about-card {
+  background-image: url('../all_images/laptop.jpg'); /* Background image for the about card */
+  background-size: cover; /* Cover the card with the background image */
+  background-position: center; /* Center the background image */
+  flex: 1; /* Take up remaining space */
+  margin-right: 10px; /* Add some spacing between cards */
+}
+
+.education-card {
+  background-image: url('../all_images/laptop.jpg'); /* Background image for the education card */
+  background-size: cover; /* Cover the card with the background image */
+  background-position: center; /* Center the background image */
+  flex: 1; /* Take up remaining space */
+  margin-left: 10px; /* Add some spacing between cards */
+}
+
+/* Content Styles */
+.content {
+  padding: 20px; /* Padding for content */
+}
+
+.content h2 {
+  font-size: 24px; /* Font size for headings */
+  color: #eadddd; /* Text color for headings */
+  margin-bottom: 10px; /* Bottom margin for headings */
+}
+
+.content p {
+  font-size: 16px; /* Font size for paragraphs */
+  color: #ffacac; /* Text color for paragraphs */
+  margin-bottom: 20px; /* Bottom margin for paragraphs */
+}
+
+/* Button Styles */
+.btn {
+  display: inline-block; /* Display buttons inline */
+  padding: 10px 20px; /* Padding for buttons */
+  background-color: #53585e; /* Background color of buttons */
+  color: #fff; /* Text color of buttons */
+  border-radius: 5px; /* Rounded corners */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s; /* Smooth background color transition */
+}
+
+.btn:hover {
+  background-color: #da5151; /* Background color on hover */
+}
+
+/* Footer Styles */
+footer {
+  background-image: url('../all_images/star.jpg'); /* Background image for the footer */
+  background-size: cover; /* Cover the footer area with the background image */
+  background-position: center; /* Center the background image */
+  padding: 20px; /* Padding for the footer */
+}
+
+/* Social Icons Styles */
+.social-icons {
+  display: flex; /* Enable flexbox layout */
+  justify-content: center; /* Center social icons horizontally */
+}
+
+.social-icon {
+  color: #fff; /* Icon color */
+  font-size: 30px; /* Font size for icons */
+  margin: 0 10px; /* Margin around icons */
+  text-decoration: none; /* Remove underline */
+}
+
+.social-icon:hover {
+  color: #007bff; /* Icon color on hover */
+}
